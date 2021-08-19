@@ -1,0 +1,21 @@
+.header-container {
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.date-container {
+    text-align: center;
+    margin: auto;
+    width: 20%;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.button-container {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
