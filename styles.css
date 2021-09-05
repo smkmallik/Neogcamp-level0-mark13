@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+:root {
+    --primary-color: #00BFA6;
+    --font-color: white
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .header-container {
+    display: block;
     text-align: center;
-    margin: auto;
-    padding: 2rem;
+    font-size: x-large;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--font-color);
 }
 
 .date-container {
@@ -12,10 +28,89 @@
 
 .main-container {
     text-align: center;
+    padding-top: 2rem;
 }
 
-.button-container {
+/* .button-container {
     display: block;
     margin: auto;
     margin-top: 1rem;
+} */
+
+footer {
+    margin-top: 20rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    color: var(--font-color);
+    bottom: 0;
+}
+
+.end-credits {
+    margin: 1rem;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+
+.options-list-container {
+    text-align: center;
+    margin: auto;
+    padding-top: 4rem;
+    font-weight: bolder;
+}
+
+li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-inline-start: 1rem;
+    
+}
+
+button {
+    display: block;
+    font-family: inherit;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 35.8rem;
+    padding: 0.8rem 2rem;
+    font-size: medium;
+    border: none;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    cursor: pointer;
+
+}
+
+.result-output {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+
+.result-next-palindrome {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+
+.result-previous-palindrome {
+    display: block;
+    margin: auto;
+    padding: 1rem;
 }
